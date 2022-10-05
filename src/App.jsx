@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import Input from "./Components/Input";
-import Button from "./Components/Button"
+import Button from "./Components/Button";
 
 function App(){
-    return <div>
+    return <div className="loginpage">
 
     <div className="leftside">
       <div className="content">
@@ -11,6 +11,8 @@ function App(){
         <h1 className="text">an Admin?</h1>
         <button className="admin">Admin Login</button>
       </div>
+    </div>
+    <div className="ellipse1">
     </div>
     <MainContent>
       <Helloadmin>Hello Student!!</Helloadmin>
@@ -42,9 +44,9 @@ function App(){
             padding:10px 30px;
             position:absolute;
             width:27vw;
-            height: 90vh;
+            height: 40vw;
             left:870px;
-            top:90px;
+            top:50px;
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0.14) 100%);
             border: 1px solid rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(15px);
@@ -52,6 +54,8 @@ function App(){
           `;
   const Helloadmin = styled.h2`
            margin: 3rem 0 2rem 0;
+           color:#390479;
+           font-weight: bold;
        `;
 
   const InputContainer = styled.div`
@@ -61,7 +65,7 @@ function App(){
            align-items: center;
            padding:20px 30px;
            gap:10px;
-
+           color:#390479;
            width: 120%;
            height:24%; 
            border-radius: 50px;
@@ -72,12 +76,15 @@ function App(){
              cursor :pointer;  
              align-items:center;
              justify-content:center;
+             color:#390479;
+             font-weight: bold;
      `;
 
   const ButtonContainer= styled.div`
           display: flex;
           justify-content:center;
           align-items: center;
+          color:#390479;
           gap:10px;
           width: 120%;
           height:24%;
@@ -97,6 +104,7 @@ function App(){
           align-items: center;
           width: 140%;
           height:30%;
+          color:#390479;
           font-size:large;
           color:black;
   `;

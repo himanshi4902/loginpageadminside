@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
+
 body{
     position: relative;
-    width: 1728px;
-    height: 1117px;
-    
+    width: 2vw;
+    height: 1vh;
     background: linear-gradient(113.32deg, #C9B2F6 0.73%, #915FD1 58.72%, #6109D9 105.8%);
 }
+
 
 .leftside{
     position: absolute;
     width: 690px;
-    height: 1117px;
+    height: 100vh;
     left: 0px;
     top: 0px;
 
@@ -73,7 +77,14 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
-
+.ellipse1{
+    width:100px;
+    left:100px;
+    top:100px;
+    height:40px;
+    border-radius:50%;
+    background:#24014E;
+}
 .InputText{
     display: flex;
     align-items: center;
