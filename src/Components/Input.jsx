@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default function Input({type,placeholder}){
-    return <StyledInput className="InputText" type={type} placeholder={placeholder}/>;
+    return <StyledInput className="reg_page_InputText" type={type} placeholder={placeholder}/>;
 }
  
 const StyledInput = styled.input`
